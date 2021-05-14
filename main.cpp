@@ -15,13 +15,13 @@ class TNode{
 
 template <class CL1>
 class Tree{
-    public: TNode* op_Root;
+    public: TNode<CL1>* op_Root;
     public: Tree(){
         op_Root= nullptr;
     }
 };
 
 int main(){
-    cout << "Hello world!" << endl;
+    Tree<int> o_Tree;
     return 0;
 }
